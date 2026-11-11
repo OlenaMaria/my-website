@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Olena-Maria Balta</title>
+
+    <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&amp;family=DM+Sans:wght@400;500;700&amp;display=swap"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+
+<!-- Navigation: each link jumps to a section using its ID -->
+
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="#about">About me</a>
+            <a href="#builder">Build your scientist</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+<!-- About me: introduction, research interests and working style -->
+
+        <h1 id="about">Hi, I’m Olena-Maria 🦄</h1>
+
+      <p>
+        💻 Computational biologist and PhD candidate specialising
+        in single-cell transcriptomics, long-read sequencing
+        and reproducible bioinformatics. 
+      </p>
+
+      <p>
+        🧬 I want to use omics to understand disease
+        and improve human health. Precision Medicine is the Goal!
+      </p>
+
+      <p>
+        🗂️ Organised to the last detail. Documenting life as I go!
+      </p>
+
+      <p>
+        🎯 When I take on a task, I deliver. With precision!
+      </p>
+
+      <a href="https://github.com/OlenaMaria">
+        Explore my GitHub
+      </a>
+
+<!-- A hidden message encoded using amino-acid letters -->
+<!-- A hidden message encoded using amino-acid letters -->
+<details class="dna-message">
+  <summary>
+  <span class="dna-symbol" aria-hidden="true">🧬</span>
+
+  <span class="dna-summary-copy">
+    <span class="dna-eyebrow">
+      A little message in the bases
+    </span>
+
+    <code>5′ TGC CGT GAA GCT ACC GAA 3′</code>
+
+    <span class="dna-decode">
+      <span class="dna-open-label">Decode message 🖱️</span>
+      <span class="dna-close-label">Hide message 🖱️</span>
+    </span>
+  </span>
+</summary>
+
+  <!-- The decoded sequence -->
+  <div class="dna-reveal">
+    <p class="dna-eyebrow">DNA → RNA → AMINO ACIDS</p>
+
+    <p class="dna-rna">
+      <span>RNA · 5′ → 3′</span>
+      <code>UGC CGU GAA GCU ACC GAA</code>
+    </p>
+
+    <p class="dna-arrow" aria-hidden="true">↓</p>
+
+    <!-- Each tile connects a codon to its amino acid -->
+    <ol class="dna-tiles">
+      <li>
+        <code>UGC</code>
+        <span>Cysteine</span>
+        <small>Cys</small>
+        <strong>C</strong>
+      </li>
+
+      <li>
+        <code>CGU</code>
+        <span>Arginine</span>
+        <small>Arg</small>
+        <strong>R</strong>
+      </li>
+
+      <li>
+        <code>GAA</code>
+        <span>Glutamate</span>
+        <small>Glu</small>
+        <strong>E</strong>
+      </li>
+
+      <li>
+        <code>GCU</code>
+        <span>Alanine</span>
+        <small>Ala</small>
+        <strong>A</strong>
+      </li>
+
+      <li>
+        <code>ACC</code>
+        <span>Threonine</span>
+        <small>Thr</small>
+        <strong>T</strong>
+      </li>
+
+      <li>
+        <code>GAA</code>
+        <span>Glutamate</span>
+        <small>Glu</small>
+        <strong>E</strong>
+      </li>
+    </ol>
+
+    <p class="dna-word">CREATE</p>
+    <p class="dna-tagline">Questions. Methods. Possibilities.</p>
+  </div>
+</details>
+
+<!-- Interactive scientist builder: skills and supporting evidence -->
+<section id="builder">
+  <h2>Build your next scientist</h2>
+
+  <p>Explore the experience behind each skill.</p>
+
+  <fieldset class="skills-fieldset">
+    <legend>What would help your team most?</legend>
+
+    <div class="skill-grid">
+
+      <!-- Single-cell research -->
+      <article class="skill-card">
+        <label class="skill-choice">
+          <input type="checkbox" name="skills" value="single">
+          <span>Single-cell analysis</span>
+        </label>
+
+        <details>
+          <summary>Explore the evidence</summary>
+          <p>
+            My PhD combines single-cell transcriptomics with
+            SPLiT-seq long-read protocol development to investigate
+            planarian regeneration and transcript diversity. To our knowledge
+            this is the first such protocol developed.
+          </p>
+        </details>
+      </article>
+
+      <!-- Long-read sequencing and genome assembly -->
+      <article class="skill-card">
+        <label class="skill-choice">
+          <input type="checkbox" name="skills" value="long">
+          <span>Long-read sequencing</span>
+        </label>
+
+        <details>
+          <summary>Explore the evidence</summary>
+          <p>
+            At Oxford Nanopore Technologies, I generated ultra-long
+            and Pore-C datasets and worked on the telomere-to-telomere
+            assembly of a cancerous human cell line.
+          </p>
+        </details>
+      </article>
+
+      <!-- Computational analysis and reproducibility -->
+      <article class="skill-card">
+        <label class="skill-choice">
+          <input type="checkbox" name="skills" value="workflow">
+          <span>Reproducible workflows</span>
+        </label>
+
+        <details>
+          <summary>Explore the evidence</summary>
+          <p>
+            I use Python, R, Unix, Scanpy and Nextflow in my
+            computational work, with an emphasis on reproducible
+            bioinformatics analyses.
+          </p>
+        </details>
+      </article>
+
+      <!-- Experimental methods and troubleshooting -->
+      <article class="skill-card">
+        <label class="skill-choice">
+          <input type="checkbox" name="skills" value="methods">
+          <span>Method development</span>
+        </label>
+
+        <details>
+          <summary>Explore the evidence</summary>
+          <p>
+            My PhD has been one big protocol development journey, connecting
+            laboratory decisions with downstream sequencing analysis.
+          </p>
+        </details>
+      </article>
+
+      <!-- Human genetics and disease -->
+      <article class="skill-card">
+        <label class="skill-choice">
+          <input type="checkbox" name="skills" value="medicine">
+          <span>Genomic medicine</span>
+        </label>
+
+        <details>
+          <summary>Explore the evidence</summary>
+          <p>
+            My MSc in Genomic Medicine included an internship at the Manchester Centre for 
+            Genomic Research, where I investigated the relationship between genotype and 
+            phenotype in patients with Gorlin syndrome using Sanger sequencing.
+          </p>
+        </details>
+      </article>
+
+      <!-- Applied research and innovation -->
+      <article class="skill-card">
+        <label class="skill-choice">
+          <input type="checkbox" name="skills" value="industry">
+          <span>Industry experience</span>
+        </label>
+
+        <details>
+          <summary>Explore the evidence</summary>
+          <p>
+            At Procter &amp; Gamble, I worked on antimicrobial
+            formulations and managed a biosafety level 2 laboratory.
+            I am a named co-inventor on a published patent application.
+          </p>
+        </details>
+      </article>
+
+    </div>
+  </fieldset>
+
+  <!-- Selection count and builder controls --> 
+  <p id="skill-count" role="status">
+    0 of 4 selected. Choose three or four skills.
+  </p>
+
+  <div class="builder-actions">
+    <button
+        type="button"
+        id="build-button"
+        class="builder-button"
+        disabled
+    >
+        Build my scientist
+    </button>
+
+    <button
+        type="button"
+        id="reset-builder"
+        class="builder-button secondary"
+        disabled
+    >
+    Start again
+  </button>
+</div>
+
+<!-- This profile appears after a valid combination is built -->
+
+<!-- Reveal: photograph and name only -->
+<div
+  id="scientist-result"
+  class="scientist-result"
+  aria-labelledby="scientist-name"
+  tabindex="-1"
+  hidden
+>
+  <img
+    src="images/1.png"
+    alt="Olena-Maria Balta"
+    class="scientist-photo"
+    width="180"
+    height="180"
+  >
+
+  <h3 id="scientist-name">Meet Olena-Maria</h3>
+
+</div>
+
+</section>
+
+<!-- Projects: code, analyses and other practical work -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <ul class="portfolio-list" role="list">
+    <li class="portfolio-entry">
+      <span class="portfolio-icon" aria-hidden="true">🧬</span>
+
+      <div class="portfolio-content">
+        <h3 class="portfolio-title">
+          <a href="https://github.com/OlenaMaria/CellCycle_Schmidtea">
+            Cdh1 - Single-Cell Transcriptomics Illumina Analysis
+          </a>
+        </h3>
+
+        <p>
+          Analysis notebooks for the planarian cell-cycle project.
+        </p>
+
+        <p class="portfolio-meta">
+          Jupyter Notebook · Forked from
+          <a href="https://github.com/scbe-lab/CellCycle_Schmidtea">
+            scbe-lab/CellCycle_Schmidtea
+          </a>
+        </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+<!-- Published work: preprints and patent applications -->
+<section id="published-work">
+  <h2>Published Work</h2>
+
+  <ul class="portfolio-list" role="list">
+
+    <!-- Research preprint -->
+    <li class="portfolio-entry">
+      <span class="portfolio-icon" aria-hidden="true">📄</span>
+
+      <div class="portfolio-content">
+        <h3 class="portfolio-title">
+          <a href="https://www.biorxiv.org/content/10.64898/2026.09.16.750956v1">
+            Cell cycle exit is required for differentiation and
+            cell fate diversification but not neoblast
+            specialisation in planarians
+          </a>
+        </h3>
+
+        <p class="portfolio-meta">
+          bioRxiv preprint · 2026
+        </p>
+      </div>
+    </li>
+
+    <!-- Published patent application -->
+    <li class="portfolio-entry">
+      <span class="portfolio-icon" aria-hidden="true">📄</span>
+
+      <div class="portfolio-content">
+        <h3 class="portfolio-title">
+          <a href="https://patents.google.com/patent/EP4008184A1/en">
+            Antimicrobial Formulation Research
+          </a>
+        </h3>
+
+        <p class="portfolio-meta">
+          Procter &amp; Gamble · Published patent application
+        </p>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+<!-- Two blog categories, each linking to its own page -->
+<section id="blog">
+  <h2>Blog</h2>
+
+  <div class="blog-categories">
+    <a class="blog-category" href="_preview/science/first-science-note.html">
+      <h3>Science Notes</h3>
+      <p>Research, methods and biological questions.</p>
+      <span>Explore science notes →</span>
+    </a>
+
+    <a class="blog-category" href="_preview/personal/first-personal-note.html">
+      <h3>Personal Notes</h3>
+      <p>Life, interests and thoughts beyond the research.</p>
+      <span>Explore personal notes →</span>
+    </a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Let’s connect</h2>
+
+  <p>Interested in discussing a project or working together?</p>
+
+  <a href="https://www.linkedin.com/in/olena-maria-balta/">
+    Find me on LinkedIn ↗
+  </a>
+
+  <!-- GitHub profile -->
+  <p>
+    <a href="https://github.com/OlenaMaria">
+    Explore my GitHub ↗
+    </a>
+  </p>
+</section>
+
+    </main>
+  </body>
+</html>

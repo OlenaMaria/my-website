@@ -1,0 +1,7 @@
+# Python environment and temporary files
+.venv/
+__pycache__/
+*.pyc
+
+# Locally generated blog previews
+_preview/

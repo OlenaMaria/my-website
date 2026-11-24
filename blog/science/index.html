@@ -13,7 +13,22 @@
 
     <!-- Go up two folders to find the shared stylesheet -->
     <link rel="stylesheet" href="../../styles.css">
-  </head>
+  <!-- science-notes:style -->
+<style>
+  .pn-block a {color:#71365b;text-decoration-thickness:.08em;text-underline-offset:.17em}
+  .pn-block {margin-top:1.6rem;padding-top:1.35rem}
+  .pn-kicker {color:#6b5364;font-weight:700;margin:0 0 .25rem}
+  .pn-title {margin:0 0 .25rem}
+  .pn-date {display:block;color:#695a67;font-size:.95rem;margin:0 0 .95rem}
+  .pn-welcome p {max-width:65ch}
+  .pn-latest-link {font-size:1.2rem;font-weight:700}
+  .pn-entries {list-style:none;padding:0;margin:0}
+  .pn-entries li {display:flex;align-items:baseline;justify-content:space-between;
+    flex-wrap:wrap;gap:.2rem .8rem;border-bottom:1px solid #eadde5;padding:.7rem 0}
+  .pn-entries time {color:#695a67;font-size:.95rem}
+</style>
+<!-- /science-notes:style -->
+</head>
 
   <body>
     <main>
@@ -21,15 +36,32 @@
         <a href="../../index.html#blog">← Main website</a>
       </nav>
 
-      <h1>Science notes</h1>
+      <h1>Science Notes</h1>
 
       <p>Research, methods and biological questions.</p>
 
       <!-- The publishing script will update this area later -->
       <div id="posts">
         <!-- POSTS:START -->
-        <p class="blog-empty">No posts published yet.</p>
-        <!-- POSTS:END -->
+<!-- science-archive:start -->
+<!-- science-notes:archive-v1 -->
+<section class="pn-block pn-welcome" id="pn-welcome" aria-labelledby="pn-welcome-title">
+<p class="pn-kicker">Start here · My first science note</p>
+<h2 class="pn-title" id="pn-welcome-title"><a href="first-science-note.html">My first science note</a></h2>
+<time class="pn-date" datetime="2026-11-11">11 November 2026</time>
+<p>I spend a lot of time asking cells what they’re up to. They answer in RNA, which is a wonderfully inconvenient way to have a conversation.</p>
+<p>I’m Olena-Maria, a computational biologist and PhD candidate exploring single-cell transcriptomics, long-read sequencing and planarian regeneration. This is where I’ll share the biological questions I’m chasing, the methods I’m figuring out, and the occasional plot that raises more questions than it answers.</p>
+<p>Bring your curiosity. I’ll bring the excessively organised notes. 🦄</p>
+</section>
+<section class="pn-block" id="pn-latest" aria-labelledby="pn-latest-title">
+<h2 id="pn-latest-title">Latest post</h2><p class="pn-latest-link"><a href="first-science-note.html">My first science note</a></p>
+<time class="pn-date" datetime="2026-11-11">11 November 2026</time>
+</section>
+<section class="pn-block" id="pn-archive" aria-labelledby="pn-archive-title">
+<h2 id="pn-archive-title">All blog entries</h2><ol class="pn-entries"><li><a href="first-science-note.html">My first science note</a> <time class="" datetime="2026-11-11">11 November 2026</time></li></ol>
+</section>
+<!-- science-archive:end -->
+<!-- POSTS:END -->
       </div>
     </main>
   </body>

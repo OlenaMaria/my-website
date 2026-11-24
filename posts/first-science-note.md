@@ -2,7 +2,7 @@
 title: "My first science note"
 date: "2026-11-11"
 category: "science"
-published: false
+published: true
 ---
 
 I spend a lot of time asking cells what they’re up to. They answer in RNA, which is a wonderfully inconvenient way to have a conversation.

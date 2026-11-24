@@ -2,7 +2,7 @@
 title: "A very organised work in progress"
 date: "2026-11-11"
 category: "personal"
-published: false
+published: true
 ---
 I like a plan. Preferably one with headings, folders and enough notes for future me to retrace every step. To be completely honest, I have Excel files for my entire personal life. Oops!
 

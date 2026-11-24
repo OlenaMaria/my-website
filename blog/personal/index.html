@@ -13,7 +13,22 @@
 
     <!-- Go up two folders to find the shared stylesheet -->
     <link rel="stylesheet" href="../../styles.css">
-  </head>
+  <!-- personal-notes:style -->
+<style>
+  .pn-block a {color:#71365b;text-decoration-thickness:.08em;text-underline-offset:.17em}
+  .pn-block {margin-top:1.6rem;padding-top:1.35rem}
+  .pn-kicker {color:#6b5364;font-weight:700;margin:0 0 .25rem}
+  .pn-title {margin:0 0 .25rem}
+  .pn-date {display:block;color:#695a67;font-size:.95rem;margin:0 0 .95rem}
+  .pn-welcome p {max-width:65ch}
+  .pn-latest-link {font-size:1.2rem;font-weight:700}
+  .pn-entries {list-style:none;padding:0;margin:0}
+  .pn-entries li {display:flex;align-items:baseline;justify-content:space-between;
+    flex-wrap:wrap;gap:.2rem .8rem;border-bottom:1px solid #eadde5;padding:.7rem 0}
+  .pn-entries time {color:#695a67;font-size:.95rem}
+</style>
+<!-- /personal-notes:style -->
+</head>
 
   <body>
     <main>
@@ -28,10 +43,26 @@
       <!-- The publishing script will update this area later -->
       <div id="posts">
         <!-- POSTS:START -->
-        <p>
-          <a href="i-have-a-website.html">Read my latest post →</a>
-        </p>
-        <!-- POSTS:END -->
+<!-- personal-notes:archive-v1 -->
+<section class="pn-block pn-welcome" id="pn-welcome" aria-labelledby="pn-welcome-title">
+<p class="pn-kicker">Start here · My first personal note</p>
+<h2 class="pn-title" id="pn-welcome-title"><a href="first-personal-note.html">A very organised work in progress</a></h2>
+<time class="pn-date" datetime="2026-11-11">11 November 2026</time>
+<p>I like a plan. Preferably one with headings, folders and enough notes for future me to retrace every step. To be completely honest, I have Excel files for my entire personal life. Oops!</p>
+<p>This blog is my current project: a little corner of the internet where I’m organising my thoughts, one blog post at a time.</p>
+<p>I have always written stuff, about me, about others. It has always been my way of processing things and understanding the world around me. I have a way with words, and they have a way with me.  </p>
+<p>These notes will be home to the rest of me: things I’m learning, unsolicited but nonetheless given opinions and thoughts that don’t quite belong in a figure legend.</p>
+<p>I’ll document it as I go. Obviously. 🦄</p>
+</section>
+<section class="pn-block" id="pn-latest" aria-labelledby="pn-latest-title">
+<h2 id="pn-latest-title">Latest post</h2><p class="pn-latest-link"><a href="i-have-a-website.html">I Have a Website</a></p>
+<time class="pn-date" datetime="2026-11-14">14 November 2026</time>
+</section>
+<section class="pn-block" id="pn-archive" aria-labelledby="pn-archive-title">
+<h2 id="pn-archive-title">All blog entries</h2><ol class="pn-entries"><li><a href="i-have-a-website.html">I Have a Website</a> <time class="" datetime="2026-11-14">14 November 2026</time></li>
+<li><a href="first-personal-note.html">A very organised work in progress</a> <time class="" datetime="2026-11-11">11 November 2026</time></li></ol>
+</section>
+<!-- POSTS:END -->
       </div>
     </main>
   </body>
